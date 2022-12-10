@@ -1,0 +1,16 @@
+.buttonDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonDiv button {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid rgb(244, 198, 198);
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.buttonDiv button:hover {
+  background-color: rgb(244, 198, 198);
+}
